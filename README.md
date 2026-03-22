@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/tavosud/sky-theme)
 [![Edit CodeSandbox](https://img.shields.io/badge/CodeSandbox-Edit-blue?logo=codesandbox)](https://codesandbox.io/p/sandbox/y5rt5f)
+[![ko-fi](https://img.shields.io/badge/ko--fi-Support-blue?logo=ko-fi)](https://ko-fi.com/tavosud)
 
 > Ultra-lightweight, SSR-safe, zero-dependency dark mode and theme manager for React.
 
