@@ -1,0 +1,62 @@
+{
+  "name": "@tavosud/sky-theme",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "Ultra-lightweight, SSR-safe, zero-dependency dark mode and theme manager for React.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles": "./src/sky-theme.css",
+    "./test-utils": "./src/test-utils.tsx",
+    "./ThemeButton": "./src/ThemeButton.tsx",
+    "./ThemeScript": "./src/ThemeScript.tsx"
+  },
+  "files": [
+    "dist",
+    "src/index.ts",
+    "src/ThemeProvider.tsx",
+    "src/ThemeButton.tsx",
+    "src/ThemeScript.tsx",
+    "src/test-utils.tsx",
+    "src/script-inline.js",
+    "src/sky-theme.css"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsup"
+  },
+  "keywords": [
+    "react",
+    "theme",
+    "dark-mode",
+    "light-mode",
+    "ssr",
+    "typescript",
+    "zero-deps",
+    "context",
+    "provider"
+  ],
+  "author": "Tu Nombre <tu.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/sky-theme.git"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.4",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,93 @@
+/* Sky Theme - Professional Dark Mode Styles */
+
+:root {
+  --sky-bg-primary: #ffffff;
+  --sky-bg-secondary: #f8fafc;
+  --sky-bg-tertiary: #f1f5f9;
+  --sky-text-primary: #0f172a;
+  --sky-text-secondary: #475569;
+  --sky-border: #e2e8f0;
+  --sky-accent: #3b82f6;
+}
+
+html.dark {
+  --sky-bg-primary: #0f172a;
+  --sky-bg-secondary: #1e293b;
+  --sky-bg-tertiary: #334155;
+  --sky-text-primary: #f8fafc;
+  --sky-text-secondary: #94a3b8;
+  --sky-border: #334155;
+  --sky-accent: #60a5fa;
+}
+
+/* Base styles for both modes */
+body {
+  background: var(--sky-bg-primary);
+  color: var(--sky-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sky-surface {
+  background: linear-gradient(135deg, var(--sky-bg-secondary) 0%, var(--sky-bg-tertiary) 100%);
+  border: 1px solid var(--sky-border);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.sky-glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--sky-border);
+  border-radius: 12px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+html.dark .sky-glass {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sky-card {
+  background: var(--sky-bg-secondary);
+  border: 1px solid var(--sky-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+html.dark .sky-card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+.sky-border {
+  border: 1px solid var(--sky-border);
+  transition: border-color 0.3s ease;
+}
+
+.sky-text {
+  color: var(--sky-text-primary);
+  transition: color 0.3s ease;
+}
+
+.sky-text-muted {
+  color: var(--sky-text-secondary);
+  transition: color 0.3s ease;
+}
+
+a {
+  color: var(--sky-accent);
+  transition: color 0.3s ease;
+}
+
+button,
+input,
+textarea,
+select {
+  background: var(--sky-bg-tertiary);
+  border: 1px solid var(--sky-border);
+  color: var(--sky-text-primary);
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
