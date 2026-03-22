@@ -1,6 +1,6 @@
 {
   "name": "@tavosud/sky-theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Ultra-lightweight, SSR-safe, zero-dependency dark mode and theme manager for React.",
   "main": "./dist/index.js",
