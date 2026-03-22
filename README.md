@@ -3,6 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/@tavosud/sky-theme)](https://www.npmjs.com/package/@tavosud/sky-theme)
 [![npm types](https://img.shields.io/npm/types/@tavosud/sky-theme)](https://www.npmjs.com/package/@tavosud/sky-theme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/tavosud/sky-theme)
+[![Edit CodeSandbox](https://img.shields.io/badge/CodeSandbox-Edit-blue?logo=codesandbox)](https://codesandbox.io/p/sandbox/y5rt5f)
 
 > Ultra-lightweight, SSR-safe, zero-dependency dark mode and theme manager for React.
 
